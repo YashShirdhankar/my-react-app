@@ -3,6 +3,7 @@ import Button from "./Button";
 import Students from "./Students";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
+import Counter from "./Counter";
 function App() {
 
   return(
@@ -15,6 +16,7 @@ function App() {
     <Students/>
     <UserGreeting isLoggedIn={true} username="Yash"/>
     <List/>
+    <Counter/>
     </>
     
    );
