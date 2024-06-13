@@ -4,6 +4,7 @@ import Students from "./Students";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
 import Counter from "./Counter";
+import MyComponent from "./MyComponet";
 function App() {
 
   return(
@@ -17,6 +18,7 @@ function App() {
     <UserGreeting isLoggedIn={true} username="Yash"/>
     <List/>
     <Counter/>
+    <MyComponent/>
     </>
     
    );
