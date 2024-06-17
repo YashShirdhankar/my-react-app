@@ -5,6 +5,7 @@ import UserGreeting from "./UserGreeting";
 import List from "./List";
 import Counter from "./Counter";
 import MyComponent from "./MyComponet";
+import Load from "./Load";
 function App() {
 
   return(
@@ -19,6 +20,7 @@ function App() {
     <List/>
     <Counter/>
     <MyComponent/>
+    <Load/>
     </>
     
    );
