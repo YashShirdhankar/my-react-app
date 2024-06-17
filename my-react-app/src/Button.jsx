@@ -19,7 +19,27 @@ function Button(){
 
 
 
-  return(<button onDoubleClick={(e) => handleClick(e)}style={styles}>click me </button>)
+  return(<div class="button-container">
+    <button class="button-3d">
+      <div class="button-top">
+        <span class="material-icons">❮</span>
+      </div>
+      <div class="button-bottom"></div>
+      <div class="button-base"></div>
+    </button>
+    <button class="button-3d">
+      <div class="button-top">
+        <span class="material-icons">❯</span>
+      </div>
+      <div class="button-bottom"></div>
+      <div class="button-base"></div>
+    </button>
+  </div>
+  
+
+);
+  
+
 }
 
 export default Button
